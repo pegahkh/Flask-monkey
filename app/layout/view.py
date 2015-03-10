@@ -1,7 +1,9 @@
 #!flask/bin/python
 from flask import render_template, flash, \
-    redirect, url_for, request, g
-from flask.ext.login import current_user, login_required
+    redirect, url_for,session, request, g
+from flask.ext.login import current_user, login_required, \
+    login_user, logout_user
+from config import Config
 from app import db, lm
 from ..form import LoginForm
 from config import MONKEYS_PAGE
