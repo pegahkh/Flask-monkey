@@ -3,5 +3,3 @@ env
 *.pyc
 *.db
 *.py~
-.coverage
-cover
