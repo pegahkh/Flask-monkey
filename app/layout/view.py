@@ -83,9 +83,6 @@ def new():
             db.session.commit()
             flash("User was added successfully.", format(name))
             return redirect(url_for('layout.user', page=1, sortby='normal'))
-    except:
-        flash("Error is found. The user already registerd to the system!")
-    return render_template('new.html', form=form)
 
 
 # Edit monkey information
