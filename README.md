@@ -5,17 +5,14 @@ Set up
 
 Step 1: Clone the git repository
 
-$ https://github.com/candyash/flask-fastmonkey
-
-$ cd flask-fastmonkey
+  $ https://github.com/candyash/flask-fastmonkey
+  $ cd flask-fastmonkey
 
 Step 2: Create a virtual environment
 
-$ virtualenv flask
-
-$ source flask/bin/activate
-
-(venv) $ pip install -r requirements.txt
+  $ virtualenv flask
+  $ source flask/bin/activate
+  (venv) $ pip install -r requirements.txt
 
 Step 3: Start the application:
 
