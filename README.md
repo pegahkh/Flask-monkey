@@ -11,7 +11,9 @@ $ cd flask-fastmonkey
 Step 2: Create a virtual environment
 
 $ virtualenv flask
+
 $ source flask/bin/activate
+
 (venv) $ pip install -r requirements.txt
 
 Step 3: Start the application:
