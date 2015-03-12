@@ -184,4 +184,3 @@ def bestFriend(name):
     db.session.commit()
     flash('You are now BestFriend with ' + name + '!')
     return redirect(url_for('layout.user', page=1, sortby='normal'))
-
