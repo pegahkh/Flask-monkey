@@ -1,7 +1,7 @@
 # Flask-monkey
 
 Set up
-------------
+
 **Step 1**: Clone the git repository
 
     $ https://github.com/pegahkh/Flask-monkey.git
