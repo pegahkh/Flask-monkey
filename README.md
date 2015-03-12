@@ -6,6 +6,7 @@ Set up
 Step 1: Clone the git repository
 
 $ https://github.com/candyash/flask-fastmonkey
+
 $ cd flask-fastmonkey
 
 Step 2: Create a virtual environment
